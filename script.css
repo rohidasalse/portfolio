@@ -1,0 +1,267 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 10px black;
+}
+main{
+    font-family: "Josefin Sans";
+}
+.sec{
+    
+    font-family: sans-serif;
+    
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+
+/* Header styles */
+.logo {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.menu li {
+    display: inline-block;
+    margin: auto 1rem;
+}
+
+.menu li a:hover {
+ color: #f76b8a ;
+ font-weight: 2rem;
+  text-shadow: 0px 1.1px #f76b8a;
+
+ 
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-toggle {
+    display: none;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+}
+.bar{
+    display: none;
+    
+}
+
+
+/* main body*/
+.sec {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Individual box styles */
+.box {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0.1px 10px #f76b8a;
+}
+/* .box-container :hover{
+    box-shadow: 0px 0.1px 20px rgb(152, 148, 148);
+} */
+
+.p {
+    box-shadow: 0px 0.1px 10px #f76b8a;
+    background-color: white;
+}
+
+.pro {
+    cursor: pointer;
+}
+.p:hover{
+    box-shadow: 0px 0.1px 20px rgb(152, 148, 148);
+}
+
+.box h3 {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Customize section styles here */
+.section-one {
+    box-shadow: 0px 1px 10px rgb(152, 148, 148);
+    
+}
+.section-one-1{
+    display: flex;
+}
+.section-one-1-img{
+    margin: 10px;
+}
+.section-one-1-img img{
+  
+   border-radius: 50%;
+}
+.section-one-1-info{
+    margin: auto ;
+}
+.section-two {
+    box-shadow: 0px 0px 10px rgb(152, 148, 148);
+
+}
+
+.section-three {
+    box-shadow: 0px 1px 5px rgb(152, 148, 148);
+}
+
+.section-four {
+    box-shadow: 0px 0.1px 10px rgb(152, 148, 148);
+}
+
+.image {
+    width: 100%;
+}
+
+.box-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.section-five {
+    box-shadow: 0px 1px 5px rgb(152, 148, 148);
+}
+
+.section-six {
+    background-color: #f5f5f5;
+}
+/* footer */
+footer {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    height: auto;
+    box-shadow: 0 1px 10px black;
+}
+.footer-buttom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    color: #333;
+}
+.footer-buttom-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-buttom-up-heading{
+    font-size: 2rem;
+    margin: 2rem;
+}
+.footer-buttom-up-form{
+    
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0.1px 10px rgb(152, 148, 148);
+    width: 30%;
+    background-color: #f1f1f1;
+}
+
+.footer-buttom-down-icon{
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+/* footer form */
+.contact-form{
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+}
+  .form-group {
+    margin-bottom: 15px;
+   
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+
+  button[type="submit"] {
+    background-color:  #f76b8a;  
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.submit:hover{
+    background-color:  #f5a3b5; 
+}
+/* hamburger */
+
+

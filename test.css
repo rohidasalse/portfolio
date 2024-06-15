@@ -1,0 +1,16 @@
+.a{
+	background-color: rgb(209, 140, 140);
+	color: white;
+}
+div a{
+	background-color: blue;
+}
+h1{
+	background-color: beige;
+}
+.a .h{
+	background-color: brown;
+	}
+.a .h{
+			background-color: blue;
+}
