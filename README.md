@@ -1,3 +1,4 @@
 # portfolio
 this is my portfolio
-(/assets/img/weather_app.png)
+
+(img/weather_app.png)
