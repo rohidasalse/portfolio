@@ -1,0 +1,48 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    
+}
+img{
+    height: 13rem;
+    margin-right: 2rem;
+}
+.section6{
+margin-bottom: 5rem;
+}
+.section6 ul li{
+    /* font-size: 1rem; */
+    font-weight: 0;
+    font-style: normal;
+    /* color: red; */
+}
+body{
+    margin: 0px 6rem;
+}
+@media screen and (max-width :320px) {
+    body{
+
+        margin: 1rem;
+    }
+    header{
+        font-size: 10px;
+    }
+    section ul li{
+        font-size: 10px;
+
+    }
+    h1{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+ 
+    img{
+        height: 10rem;
+        margin-right: 1rem;
+    }
+    
+}
